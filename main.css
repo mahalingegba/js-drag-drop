@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+}
+.box{
+    background-color: #eeeeee;
+    border: #cccccc 1px solid;
+    padding: 15px;
+}
+
+.taskbox{
+    list-style:none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#todo .taskbox{
+    background-color:#0a691a;
+}
+
+
+            #todo, #inprogress, #intesting, #done {
+                min-height: 300px;
+            }
+
+             #todo .taskbox {
+                background-color:#0a691a;
+            }
+            #inprogress .taskbox {
+          background-color:#0a691a;
+            }
+            #intesting .taskbox {
+          background-color:#0a691a;
+            }
+            #done .taskbox {
+                background-color:#0a691a;
+            }
